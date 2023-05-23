@@ -141,6 +141,54 @@ p{
 #numbers_summary_itens{
     color: hsl(224, 30%, 27%);
 }
+.ico_reaction{
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ico_reaction span{
+    font-size: 20px;
+}
+.ico_reaction div{
+    width: 60px;
+}
+.ico_memory{
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ico_memory span{
+    font-size: 20px;
+}
+.ico_memory div{
+    width: 60px;
+}
+.ico_verbal{
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ico_verbal span{
+    font-size: 20px;
+}
+.ico_verbal div{
+    width: 60px;
+}
+.ico_visual{
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ico_visual span{
+    font-size: 20px;
+}
+.ico_visual div{
+    width: 60px;
+}
 .botao_continue{
     background-color: hsl(224, 30%, 27%);
     width: 300px;
@@ -150,4 +198,8 @@ p{
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
     margin-top: 30px;
+}
+.botao_continue:hover{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
 }
