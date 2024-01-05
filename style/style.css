@@ -203,3 +203,58 @@ p{
     background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+   
+
+    .content_principal{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+
+    .side_result{
+        width: 100%;
+        height: 460px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .side_result p{
+        width: 300px;
+    }
+
+    .side_summary{
+        width: 100vw;
+        border-radius: 0;
+        padding: 0 0 50px 0;
+    }
+    #summary_title{
+        width: 350px;
+    }
+
+    .summary_itens{
+        width: 350px;
+    }
+
+    .summary_iten_reaction{
+        width: 350px;
+    }
+    .summary_iten_memory{
+        width: 350px;
+    }
+    .summary_iten_verbal{
+        width: 350px;
+    }
+    .summary_iten_visual{
+        width: 350px;
+    }
+    .botao_continue{
+        width: 350px;
+        padding: 20px;
+    }
+}
+
+
